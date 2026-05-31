@@ -6,7 +6,7 @@ function mostrarfibonacci() {
     let n2 = 1; 
     let nextN = 1; // Se inicializa en 1 porque 0+1 =1, ya que la secuencia de Fibonacci comienza con 0 y 1, el siguiente número es la suma de los dos anteriores, por lo tanto el siguiente número después de 0 y 1 es 1.
     let arrayFibonacci = []; // Se declara un array para almacenar los números de la secuencia de Fibonacci
-    for (let n1 = 0; n1 <= 1597;) { // mientras n1 sea igual o menor a 1597, para garantizar que muestre el 1000
+    for (let n1 = 0; n1 <= 1000;) { // mientras n1 sea igual o menor a 1000.
           console.log(n1); // muestra el valor de n1
           arrayFibonacci.push(n1); // se guarda el valor de n1 al array de la secuencia de Fibonacci
           n1 = n2; // n1 toma el valor de n2
